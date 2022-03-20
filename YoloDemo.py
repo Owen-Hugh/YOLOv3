@@ -25,8 +25,8 @@ modelWeights = 'yolov3-tiny.weights'
 # 创建网络
 net = cv2.dnn.readNetFromDarknet(modelConfiguration, modelWeights)
 net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
-net.setPreferableTarget(cv2.dnn.DNN_TARGET_OPENCL)  # gpu
-# net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)  # cpu
+# net.setPreferableTarget(cv2.dnn.DNN_TARGET_OPENCL)  # gpu
+net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)  # cpu
 print("加载完毕！")
 
 def findObjects(outputs, img):
