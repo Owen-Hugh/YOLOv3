@@ -7,12 +7,4 @@ _coco.names yolov3-tiny.weights yolov3-tiny.cfg put in the same level directory 
 
 _run YoloDemo.py_
 
-`<_Press Q to stop the code_>`
-
-#```
-@Override
-protected void onDestroy() {
-    EventBus.getDefault().unregister(this);
-    super.onDestroy();
-}
-#``` 
+`<_Press q to stop the code_>`
