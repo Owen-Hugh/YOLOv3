@@ -3,7 +3,7 @@
 
 ***Download master yolov3-tiny.weights***
 
-_python -m pip install -r requirements.txt_
+`<_python -m pip install -r requirements.txt_>`
 
 _coco.names yolov3-tiny.weights yolov3-tiny.cfg put in the same level directory as the YoloDemo.py_
 
