@@ -9,4 +9,4 @@ _coco.names yolov3-tiny.weights yolov3-tiny.cfg put in the same level directory 
 
 _run YoloDemo.py_
 
-`_Press q to stop the code_`
+`Press q to stop the code`
